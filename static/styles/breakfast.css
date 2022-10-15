@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    background-color:#f3f1f1;
+    box-shadow: 0 2px 2px  rgba(0,0,0,.4);
+}
+nav ul {
+    left: 35%;
+    display: inline-flex;
+    position: relative;
+    list-style:none;
+    bottom: 70px;
+}
+nav ul li{
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+}
+nav ul li a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Garamond, serif;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(255, 15, 15);
+    transition: .3s;
+}
+.logo{
+    padding-left: 80px;
+}
+
+.space{
+    position: relative;
+    left: 20%;
+}
+.cart{
+    padding-left: 15px;
+    padding-top: 8px;
+    border-image-width: 10px;
+}
+.btitle{
+    margin-top: 5%;
+    margin-left: 24%;
+}
+.btitle h1{
+    font-family: Garamond, serif;
+    font-weight: bold;
+}
+.btn-btn-primary{
+    padding: 7px;
+    background-color:orangered;
+    border-radius: 10%;
+    color: white;
+    text-decoration: none;
+    border-color: black;
+}
+.card0{
+    margin-left:15%;
+    margin-top: 5%;
+}
+.card1{
+    margin-left: 40%;
+    margin-top: -24.9%;
+}
+.card2{
+    margin-left: 65%;
+    margin-top: -24.9%;
+}
+.card3{
+    margin-left:15%;
+    margin-top: 5%;
+
+}
+.card4{
+    margin-left:40%;
+    margin-top: -25.3%;
+
+}
+.card5{
+    margin-left:65%;
+    margin-top: -25.3%;
+
+}
+.card6{
+    margin-left:15%;
+    margin-top: 5%;
+
+}
+.card7{
+    margin-left:40%;
+    margin-top: -25.3%;
+
+}
+.card8{
+    margin-left:65%;
+    margin-top: -25.3%;
+
+}
+.card9{
+    margin-left:15%;
+    margin-top: 5%;
+
+}
+.card10{
+    margin-left:40%;
+    margin-top: -25.3%;
+
+}
+.card11{
+    margin-left:65%;
+    margin-top: -25.3%;
+}
+.card12{
+    margin-left:15%;
+    margin-top: 5%;
+
+}
+.card13{
+    margin-left:40%;
+    margin-top: -25.3%;
+
+}
+.card14{
+    margin-left:65%;
+    margin-top: -25.3%;
+}
+.bottom-bar{
+    position: absolute;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    background-color: rgb(27, 24, 24);
+    width: 100%;
+    height: 40%;
+
+}
+.bottom-bar h1{
+    margin-left:7%;
+    color: white;
+}
+.about-still-hungry{
+    margin-top:2%;
+    margin-left: 10%;
+}
+.about-still-hungry h5{
+color: #f3f1f1;
+}
+.about-still-hungry a{
+    text-decoration: none;
+}
+.about-still-hungry h6{
+    color: #f3f1f1;
+}
+.hungryverse{
+    margin-top:-13% ;
+    margin-left:30%; ;
+}
+.hungryverse h5{
+    color: #f3f1f1;
+
+}
+.hungryverse a{
+    text-decoration: none;
+}
+.hungryverse h6{
+    color: #f3f1f1;
+}
+.for-restarunts{
+    margin-top:-9.3% ;
+    margin-left:50%; ;
+}
+.for-restarunts h5{
+    color: #f3f1f1;
+}
+.for-restarunts a{
+    text-decoration: none;
+}
+.for-restarunts h6{ 
+    color: #f3f1f1;
+}
+.Learn-more{
+    margin-top:-7.6% ;
+    margin-left:70%; ;
+}
+.Learn-more h5{
+    color: #f3f1f1;
+}
+.Learn-more a {
+    text-decoration: none;
+}
+.Learn-more a h6{
+
+    color: #f3f1f1;
+}
+
+

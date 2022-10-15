@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='/styles/otpverification.css')}}">
+</head>
+<body>
+    <div class ="Home">
+        <div class="back-text">
+        <h1>Delicious</h1>
+        <h1 class="sub-text">Quench the Hunger</h1>
+        <div class="sub-para-box"><p class="sub-para">A recipe has no soul. You, as the cook, must bring soul to the recipe.</p></div>
+        
+    </div>
+        <div class="form">
+               <h2 >hello Ms/Mr {{fname}}</h2>
+            <h3>{{mbl}}</h3>
+            <form id="login" class="input-group" action="http://localhost:5000/validateotp" method="post">
+                <input name="otp" type="text" class="input-field" placeholder="Enter otp">
+                <br><br>
+                <button type="submit" class="submit-bnt">submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

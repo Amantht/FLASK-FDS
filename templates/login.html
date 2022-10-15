@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Login Form </title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='/styles/style1.css')}}">
+</head>
+<body>
+<div class ="Home">
+    <div class="back-text">
+    <h1>FASHION DESIGN</h1>
+    <h1 class="sub-text">Good Art Inspires,Good Design Motivates</h1>
+    <div class="sub-para-box"><p class="sub-para">Every great design begins with an even better Story</p></div>
+    
+</div>
+    <div class="form">
+           <h2 >Login into Your Account</h2>
+        <div class ="social-icon">
+            <img src="{{url_for('static',filename='/images/facebookicon.png')}}">
+            <img src="{{url_for('static',filename='/images/instaicon.png')}}">
+            <img src="{{url_for('static',filename='/images/twittericon.png')}}">
+        </div>
+        <form id="login" class="input-group" action="http://localhost:5000/Login/Submit" method="POST">
+            <input name="email" type="text" class="input-field" placeholder="Enter email" required>
+            <input name="pass" type="password" class="input-field" placeholder="Password" required>
+            <input type="checkbox" class="check-box"><span> Remember password</span>
+            <a href="http://localhost:5000/Register" class="register-bnt">Register</a>
+            <button type="submit" class="submit-bnt">Log in</button>
+        </form>
+    </div>
+</div>
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STILL HUNGRY</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='/styles/delivery.css')}}">
+    <link rel="stylesheet" href="delivery1.css">
+    <link rel="icon" type="image/x-icon" href="{{url_for('static',filename='/images/logo1.jpeg')}}">
+</head>
+<body class="today">
+    <div id="vertical-line"></div>
+    <nav>
+        <div class="logo">
+            <img src="{{url_for('static',filename='/images/logo1.jpeg')}}" width="100" height="80">
+        </div>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SMILEY CARD</a></li>
+            <li><a href="#">TODAY'S SPECIAL</a></li>
+            <li><a href="#">DELIVERY</a></li>
+            <li><a href="#">CELEBRATE</a></li><span class="space"></span>
+            <li class="login"><a href="#">LOGIN</a></li>
+            <div class="cart">
+                <img src="{{url_for('static',filename='/images/shopping-cart.png')}}" width="30" height="30">
+            </div>
+        </ul>
+    </nav>
+    <div class="title"><h1> Delivery</h1></div>
+
+    <!--BREAKFAST-->
+
+    <div class="card">
+        <div class="image">
+             <img src="{{url_for('static',filename='/images/del_tiff.jpg')}}">
+        </div>
+        <div class="title1">
+            <h1>BREAKFAST</h1>
+        </div>  
+        <div class="des">
+            <p> Enjoy your first meal with us....! </p>
+                <a href="http://localhost:5000/breakfast">
+                    <button> ORDER HERE </button>
+                 </a>
+        </div>
+    </div>
+
+    <!--LUNCH-->
+
+    <div class="card1">
+        <div class="image1">
+             <img src="{{url_for('static',filename='/images/del_lunch.jpg')}}">
+        </div>
+        <div class="title2">
+            <h1>LUNCH</h1>
+        </div>  
+        <div class="des1">
+            <p>  </p>
+                <a href="todayspecial.html">
+                    <button> ORDER HERE </button>
+                 </a>
+        </div>
+    </div>
+
+    <!--DINNER-->
+
+    <div class="card2  ">
+        <div class="image2">
+             <img src="{{url_for('static',filename='/images/del_dinner.jpg')}}">
+        </div>
+        <div class="title3">
+            <h1>DINNER</h1>
+        </div>  
+        <div class="des2">
+            <p>SOLID DINNER,SOUND SLEEP</p>
+                <a href="todayspecial.html">
+                    <button> ORDER HERE </button>
+                </a>
+        </div>
+    </div>
+
+    <!--SNACKS-->
+
+    <div class="card3">
+        <div class="image3">
+             <img src="{{url_for('static',filename='/images/del_snacks.jpg')}}">
+        </div>
+        <div class="title4">
+            <h1>SNACKS</h1>
+        </div>  
+        <div class="des3">
+            <p>  </p>
+                <a href="todayspecial.html">
+                    <button> ORDER HERE </button>
+                 </a>
+        </div>
+    </div>
+
+    <!--CAFE-->
+
+    <div class="card4">
+        <div class="image4">
+             <img src="{{url_for('static',filename='/images/capu.jpg')}}">
+        </div>
+        <div class="title5">
+            <h1>CAFE</h1>
+        </div>  
+        <div class="des4">
+            <p>  </p>
+                <a href="todayspecial.html">
+                    <button> ORDER HERE </button>
+                </a>
+        </div>
+    </div>
+</body>
+</html> 
